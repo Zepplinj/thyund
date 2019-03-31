@@ -1,12 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-* {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
+*,h2 {
+    padding: 0;
+    margin: 0;
 }
 
 body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+.full {
+    text-align: center;
+    color: white;
     background-color: dimgray;
-    padding: 0;
-    margin: 0;
+    height: 100%;
+    width: 100%;
+    h2 {
+        padding-top: 15%;
+    }
+    h1 {
+        padding-top: 10px;
+        -webkit-animation:rainbow 5s infinite;
+        -ms-animation:rainbow 1s infinite;
+        -o-animation:rainbow 1s infinite;
+        animation:rainbow 10s infinite;
+    }
+    .btn {
+        margin-top: 20px
+    }
+}
+
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+.e {
+    text-align: center;
 }
